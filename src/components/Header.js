@@ -4,15 +4,15 @@ export default class Header extends Component {
   render() {
     return (
     <React.Fragment>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="#">Request Eform</a>
-                <ul class="navbar-nav">
-                    <li class="navbar-item">
-                        <a class="nav-link" href="#">Home</a>
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark mb-3">
+            <div className="container">
+                <a className="navbar-brand" href="#">Request Eform</a>
+                <ul className="navbar-nav">
+                    <li className="navbar-item">
+                        <a className="nav-link" href="#">Home</a>
                     </li>
-                    <li class="navbar-item">
-                        <a class="nav-link" href="#">About</a>
+                    <li className="navbar-item">
+                        <a className="nav-link" href="#">About</a>
                     </li>
                 </ul>
             </div>
